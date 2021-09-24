@@ -2,8 +2,18 @@
   <div class="todo-task">
     <p>{{ "📝=> " }}{{ todo.task | titlecase }}</p>
   </div>
-  <div class="todo-butns">
-    <button class="delete-todo" (click)="removeTodo()">
+  <div class="todo-btns">
+    <button class="icon-btn">
+      <img
+        [src]="
+          todo.isCompleted
+            ? '../../../../assets/checked.png'
+            : '../../../../assets/unchecked.png'
+        "
+        alt="unchecked not working"
+      />
+    </button>
+    <button class="icon-btn" (click)="removeTodo()">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 64 64"
