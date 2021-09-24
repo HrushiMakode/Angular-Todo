@@ -44,7 +44,7 @@ export class TodosService implements OnInit {
 
   addTodo(task: string) {
     const todo: TodoItem = new TodoItem(task);
-    this._todos.unshift(todo);
+    this._todos.push(todo);
     this.localStorage.setData('todos', this._todos);
     this.todosData.emit([...this._todos]);
   }
