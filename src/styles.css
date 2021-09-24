@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #171717;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --secondary: linear-gradient(221deg, #8743ff, #4136f1 60%);
+  --disabled: rgba(204, 204, 204, 0.356);
+  --body: #eaf2ff;
+  --card: #fff;
+  --text: #000;
+  --price: #4136f1;
+}
+
+body {
+  background: var(--body);
+  transition: background 0.3s;
+  gap: 20px;
+}
+
+.root {
+  width: 100%;
+}
+
+button {
+  background: transparent;
+  background-image: none;
+  border: none;
+  cursor: pointer;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.todo-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4%;
+  width: 100%;
+}
