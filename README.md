@@ -1,27 +1,31 @@
-# AngulerTodo
+# ToDo Angular ✔
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
+### Check it out [here]!
 
-## Development server
+ <img src=".gitres/made-with-angular.svg">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Overview 👀
 
-## Code scaffolding
+<img src=".gitres/todo-angular@2x.png" >
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- A simple To-Do list web app to keep a track of things you gotta do
+- This web app makes no request to external/backend servers for storing data but instead stores data on local machines
+- Fully responsive site
 
-## Build
+## WIP 🛠
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Adding edit functionality
+- Adding gesture events
+- Mobile APP (PWA)
 
-## Running unit tests
+## How To Contribute🤝
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Yes,it is open source you can clone and change code to your need.
+- Most of the code is self explanatory, anyhow
+- for any clarification on code or want to contribute contact
+- [Gmail] / [Twitter] /[LinkedIn]
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[gmail]: mailto:makodehrushikesh@gmail.com
+[linkedin]: https://www.linkedin.com/in/hrushikesh-makode-75116a147/
+[twitter]: https://twitter.com/HrushiMakode
+[here]: https://hrushi-makode-ng-todo.netlify.app/
