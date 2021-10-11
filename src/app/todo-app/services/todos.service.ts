@@ -28,11 +28,11 @@ export class TodosService implements OnInit {
     const todo = this._todos.filter((item) => item.id === id)[0];
     todo.isCompleted = !todo.isCompleted;
     // this.removeTodo(todo.id);
-    // this._todos = !!todo.isCompleted
+    // this._todos = !!todo.issCompleted
     //   ? [...this._todos, todo]
     //   : [todo, ...this._todos];
-    // this.localStorage.setData('todos', this._todos);
-    // this.todosData.emit([...this._todos]);
+    this.localStorage.setData('todos', this._todos);
+    this.todosData.emit([...this._todos]);
   }
 
   removeTodo(id: number) {
